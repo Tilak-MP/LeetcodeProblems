@@ -5,7 +5,7 @@ class solution:
     cols = [set() for _ in range(9)]
     boxes = [set() for _ in range(9)]
 
-    print(rows)
+    # print(rows)
 
     for r in range(9):
       for c in range(9):
