@@ -4,7 +4,7 @@ class solution:
     if rows <= 0:
       return ""
     elif rows == 1:
-      return s[0]
+      return s
 
     map = {i:"" for i in range(rows)}
     n = rows + (rows-2)
